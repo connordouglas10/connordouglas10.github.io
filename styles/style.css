@@ -1,0 +1,155 @@
+:root {
+    --ivory:#F8F4F4;
+    --dark:#262626;
+}
+
+body{
+    color: var(--dark);
+    background-color:var(--ivory) ;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color:#CFB265;
+}
+.name{
+    margin-top: 70px;
+}
+h1{
+    letter-spacing: 1.5rem;
+    font-weight: 300;
+    font-family: 'Libre Baskerville', serif;
+}
+.row{
+    width:100%;
+    display: inline-block;
+    margin-top: 150px;
+
+}
+.intro{
+    margin-top: 90px;
+    width:950px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    
+}
+.two_col{
+    float:left;
+    display: block;
+}
+
+.name{
+    text-align: center;
+}
+.portrait{
+    max-width: 340px;
+    width: 100%;
+    float: right;
+
+
+}
+.text_cont{
+    max-width:520px;
+    width:100%;
+    margin-left: 80px;
+    text-align: left;
+    font-weight:200;
+    letter-spacing: .05rem;
+}
+.text_cont p{
+    margin-top: 15px;
+}
+.text_cont p:last-of-type{
+    margin-top: 50px;
+    font-weight: 300;
+}
+.text_cont p:first-of-type{
+    margin-top: 70px;
+}
+.text_cont h4:first-of-type{
+    width: 380px;
+    margin-top: 100px;
+    font-weight: 500;
+}
+h2{
+    letter-spacing: 1rem;
+    font-weight: 300;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.header{
+    text-align: left;
+}
+.header h2{
+    margin-left: 100px;
+}
+.left_col{
+    width:50%;
+}
+.right_col{
+    width:50%;
+}
+.subcol{
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.subcol h3{
+    margin-left:5px;
+}
+.subcol p{
+    margin-left:45px;
+}
+.bio_sect{
+    margin-top: 70px;
+}
+.bio_sect p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.first_line{
+    margin-top: 10px !important;
+}
+.item{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+h3{
+    font-weight: 300;
+}
+
+
+@media only screen and (max-width: 970px){
+    .two_col{
+        width:100% !important;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .intro{
+        margin-top: 90px;
+        width:100%;
+
+        
+    }
+    .name{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        width:100%;
+    }
+    .portrait{
+        max-width: 340px;
+        width: 100%;
+        float: none;
+    
+    
+    }
+}
