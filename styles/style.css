@@ -164,4 +164,24 @@ h3{
         margin: auto;
     }
 
+    .two_col img{
+        width:50%;
+    }
+    .text_cont h4:first-of-type{
+        width: 100%;
+        text-align: center;
+    }
+    .header{
+        width: 100%;
+        text-align: center;
+    }
+    .header h2{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .subcol {
+        width: 100%;
+    }
+
 }
