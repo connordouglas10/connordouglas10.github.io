@@ -1,9 +1,10 @@
 ---
-title: "Naive algorithmic collusion: when do bandit learners cooperate and when do they compete?"
-excerpt: "Working paper"
+title: "Label TAG (Temporal AGgregation): Capturing Dynamic Learning Ability in Label Aggregation"
+excerpt: "CSE 518 Course Project"
 collection: portfolio
 ---
-_**Connor Douglas, Foster Provost, Arun Sundararajan_
+
+* **Connor Douglas** , Calvin Isley, Aditya Krishnamachar*
 
 Abstract:
 
@@ -23,3 +24,5 @@ We further show that this finding is sensitive to the deterministic nature of th
 also prove that particular families of non-deterministic algorithms—which include the textbook epsilon-greedy
 algorithm—will never converge to a collusive equilibrium. Extensive simulations illustrate a range of outcomes
 under varying levels of stochasticity in the bandit algorithms.
+
+[Paper link](/files/518_project.pdf)
