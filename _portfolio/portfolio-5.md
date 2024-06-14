@@ -4,7 +4,7 @@ excerpt: "CSE 518 Course Project"
 collection: portfolio
 ---
 
-* **Connor Douglas** , Calvin Isley, Aditya Krishnamachar*
+_**Connor Douglas** , Calvin Isley, Aditya Krishnamachar_
 
 Abstract:
 
