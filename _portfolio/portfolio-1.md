@@ -3,7 +3,7 @@ title: "Naive algorithmic collusion: when do bandit learners cooperate and when 
 excerpt: "Working paper"
 collection: portfolio
 ---
-_**Connor Douglas, Foster Provost, Arun Sundararajan_
+_**Connor Douglas**, Foster Provost, Arun Sundararajan_
 
 Abstract:
 

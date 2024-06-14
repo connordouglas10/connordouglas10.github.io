@@ -4,7 +4,7 @@ excerpt: "CSE 543 Course Project"
 collection: portfolio
 ---
 
-* **Connor Douglas**, Aditya Krishnamachar, and Vishesh Patel*
+_**Connor Douglas**, Aditya Krishnamachar, Vishesh Patel_
 
 
 Abstract:
