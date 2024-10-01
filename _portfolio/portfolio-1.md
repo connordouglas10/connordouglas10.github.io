@@ -1,6 +1,6 @@
 ---
 title: "Naive algorithmic collusion: when do bandit learners cooperate and when do they compete?"
-excerpt: "Working paper"
+excerpt: "Proceedings of International Conference on Information Systems 2024 (forthcoming) (2024)"
 collection: portfolio
 ---
 _**Connor Douglas**, Foster Provost, Arun Sundararajan_
