@@ -5,7 +5,6 @@
   },
   "header": {
     "name": "Connor Douglas",
-    "subtitle": "PhD Candidate, Technology, Operations & Statistics • NYU Stern School of Business",
     "nav": [
       { "label": "Research", "href": "#research" },
       { "label": "Publications", "href": "#publications" },
@@ -24,8 +23,8 @@
       { "label": "Affiliation", "value": "NYU Stern School of Business" },
       { "label": "Email", "value": "cpd8405@stern.nyu.edu" },
       { "label": "Office", "value": "KMC 8-180 • New York, NY" },
-      { "label": "Research", "value": "Experimentation • Causal inference • Personalization • Markets" },
-      { "label": "Bio", "value": "PhD candidate in Technology, Operations & Statistics at NYU Stern." }
+      { "label": "Research", "value": "Data-driven Decision Making • Causal inference • Personalization • Markets" },
+      { "label": "Bio", "value": "I'm a PhD candidate in Information System at NYU Stern, in the Technology, Operations, and Statistics department. I love all things at the intersection of computer science, economics, and math. " }
     ],
     "links": [
       { "label": "CV", "href": "Files/CV.pdf", "variant": "secondary" },
@@ -35,7 +34,7 @@
     ]
   },
   "research": {
-    "intro": "My research lies at the intersection of machine learning and economics, where I am especially interested in algorithmic decision making. I study the design and evaluation of these systems, with methodological interests largely in adaptive experimentation and causal inference. More substantively, I am especially interested in applications to personalization, markets, and multi-agent systems."
+    "intro": "My research lies at the intersection of machine learning and economics, where I am especially interested in <strong>algorithmic decision making</strong>. I study the design and evaluation of these systems, with methodological interests largely in <strong>adaptive experimentation</strong> and <strong>causal inference</strong>. More substantively, I am especially interested in settings applied to <strong>personalization</strong>, <strong>markets</strong>, and <strong>language models</strong>.<br><br>I'm passionate about advancing a notion of <strong>algorithmic economics</strong> which treats algorithms as imperfect decision makers and studies the quality of these decisions and their downstream effects on interactive or social systems (much like the behavioral economics movement). I believe this is vital not only for improving the performance of algorithmic decision makers in context, but also for studying the safety implications of algorithmic proliferation."
   },
   "industry": {
     "roles": [
@@ -147,12 +146,14 @@
     ]
   },
   "cv": {
-    "intro": "Download my CV or visit my website and LinkedIn for additional information.",
+    "intro": "Download my CV or connect on LinkedIn for additional information.",
     "links": [
       { "label": "Download CV (PDF)", "href": "Files/CV.pdf", "variant": "primary" },
-      { "label": "Website", "href": "https://connordouglas10.github.io", "variant": "secondary" },
       { "label": "LinkedIn", "href": "https://linkedin.com/in/cpdouglas/", "variant": "secondary" }
     ]
+  },
+  "hobbies": {
+    "text": "In free time, some of my biggest hobbies are snowboarding, hiking, drawing, and exploring the NYC food scene. Last year I ran the Boston Marathon (on team BMC) and loaded up on caffeine to do the Badwater Basin to Mt. Whitney duathlon (bike + hike). I've been fortunate to spend a lot of time hiking in the White Mountains (I'm currently at 44/48 4000 footers) and Sierra Nevada, having done both the John Muir Trail and High Sierra Trail. This year, I'm focusing on getting back into drawing, watercoloring, and photography. I could talk"
   },
   "contact": {
     "email": "cpd8405@stern.nyu.edu",

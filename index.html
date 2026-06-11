@@ -508,6 +508,15 @@
 
     <div class="rule"></div>
 
+    <section class="block" id="hobbies">
+      <h2>Hobbies</h2>
+      <p id="hobbies-body">
+        <!-- Hobbies populated from JSON -->
+      </p>
+    </section>
+
+    <div class="rule"></div>
+
     <section class="block" id="contact">
       <h2>Contact</h2>
       <p id="contact-line">
@@ -758,6 +767,10 @@
 
     // Load all main content from JSON
     (function () {
+      function setRichText(el, value) {
+        if (el && typeof value === 'string') el.innerHTML = value;
+      }
+
       fetch('site-content.json?v=' + Date.now(), { cache: 'no-store' })
         .then(function (response) {
           if (!response.ok) throw new Error('Failed to load site-content.json');
@@ -849,7 +862,7 @@
           // Research
           if (data.research) {
             var rIntro = document.getElementById('research-intro');
-            if (rIntro && data.research.intro) rIntro.textContent = data.research.intro;
+            setRichText(rIntro, data.research.intro);
 
           }
 
@@ -997,7 +1010,7 @@
           // CV
           if (data.cv) {
             var cvIntro = document.getElementById('cv-intro');
-            if (cvIntro && data.cv.intro) cvIntro.textContent = data.cv.intro;
+            setRichText(cvIntro, data.cv.intro);
 
             var cvLinks = document.getElementById('cv-links');
             if (cvLinks && Array.isArray(data.cv.links)) {
@@ -1011,6 +1024,12 @@
                 cvLinks.appendChild(a);
               });
             }
+          }
+
+          // Hobbies
+          if (data.hobbies) {
+            var hobbiesBody = document.getElementById('hobbies-body');
+            setRichText(hobbiesBody, data.hobbies.text);
           }
 
           // Contact
