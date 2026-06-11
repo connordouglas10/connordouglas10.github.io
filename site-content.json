@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Connor Douglas",
+    "description": "PhD candidate at NYU Stern studying machine learning, experimentation, personalization, and markets."
+  },
+  "header": {
+    "name": "Connor Douglas",
+    "subtitle": "PhD Candidate, Technology, Operations & Statistics • NYU Stern School of Business",
+    "nav": [
+      { "label": "Research", "href": "#research" },
+      { "label": "Publications", "href": "#publications" },
+      { "label": "Awards", "href": "#awards" },
+      { "label": "Teaching", "href": "#teaching" },
+      { "label": "Service", "href": "#service" }
+    ]
+  },
+  "hero": {
+    "name": "Connor Douglas",
+    "image": {
+      "src": "Files/headshot.jpg",
+      "alt": "Portrait of Connor Douglas"
+    },
+    "quick": [
+      { "label": "Affiliation", "value": "NYU Stern School of Business" },
+      { "label": "Email", "value": "cpd8405@stern.nyu.edu" },
+      { "label": "Office", "value": "KMC 8-180 • New York, NY" },
+      { "label": "Research", "value": "Experimentation • Causal inference • Personalization • Markets" },
+      { "label": "Bio", "value": "PhD candidate in Technology, Operations & Statistics at NYU Stern." }
+    ],
+    "links": [
+      { "label": "CV", "href": "Files/CV.pdf", "variant": "secondary" },
+      { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=XopzpXQAAAAJ&hl=en", "variant": "secondary" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/cpdouglas/", "variant": "secondary" },
+      { "label": "GitHub", "href": "https://github.com/connordouglas10", "variant": "secondary" }
+    ]
+  },
+  "research": {
+    "intro": "My research lies at the intersection of machine learning and economics, where I am especially interested in algorithmic decision making. I study the design and evaluation of these systems, with methodological interests largely in adaptive experimentation and causal inference. More substantively, I am especially interested in applications to personalization, markets, and multi-agent systems."
+  },
+  "industry": {
+    "roles": [
+      {
+        "years": "2026",
+        "company": "Spotify",
+        "position": "Research Scientist Intern",
+        "logo": {
+          "src": "Files/logos/spotify.png",
+          "alt": "Spotify logo"
+        }
+      },
+      {
+        "years": "2023\u20132024",
+        "company": "United Nations",
+        "position": "Data Science Research Intern",
+        "logo": {
+          "src": "Files/logos/united-nations.png",
+          "alt": "United Nations logo"
+        }
+      },
+      {
+        "years": "2020\u20132021",
+        "company": "Genentech",
+        "position": "Software Engineering Intern",
+        "logo": {
+          "src": "Files/logos/genentech.png",
+          "alt": "Genentech logo",
+          "rounded": true
+        }
+      }
+    ]
+  },
+  "publications": [
+    {
+      "year": 2026,
+      "title": "PRISM: LLM-Guided Semantic Clustering for High-Precision Topics",
+      "authors": "Connor Douglas, Utkucan Balci, Joseph Ayelett-Bullock",
+      "venue": "Forthcoming, Proceedings of the ACM Web Conference (WWW 2026)",
+      "links": []
+    },
+    {
+      "year": 2025,
+      "title": "The Illusion of Collusion: How Experimentation Algorithm Choice Affects Naive Algorithmic Collusion",
+      "authors": "Connor Douglas, Foster Provost, Arun Sundararajan",
+      "venue": "Working Paper",
+      "links": []
+    },
+    {
+      "year": 2025,
+      "title": "Logging Policy Design for Efficient Off-policy Evaluation",
+      "authors": "Connor Douglas, Joel Persson, Foster Provost",
+      "venue": "In preparation, Management Science",
+      "links": []
+    },
+    {
+      "year": 2024,
+      "title": "Naive Algorithmic Collusion: When Do Bandit Learners Cooperate and When Do They Compete?",
+      "authors": "Connor Douglas, Foster Provost, Arun Sundararajan",
+      "venue": "Proceedings of the International Conference on Information Systems (ICIS 2024)",
+      "links": []
+    },
+    {
+      "year": 2024,
+      "title": "Techniques for Abstraction of Unstructured Clinical Trial Health Data",
+      "authors": "Lukas Corey, Jennifer Crawford, Connor Douglas, Benjamin Fernandez",
+      "venue": "US Patent App. 18/516,898",
+      "links": []
+    },
+    {
+      "year": 2023,
+      "title": "Computing an Optimal Strategy in a Baseball At-bat",
+      "authors": "Connor Douglas, Everett Witt, Mia Bendy, Yevgeniy Vorobeychik",
+      "venue": "Proceedings of FLAIRS-36 Conference",
+      "links": []
+    }
+  ],
+  "awards": {
+    "awards": [
+      "United Nations Secretary General Award (2026)",
+      "NSF Graduate Research Fellowship Program (GRFP), Economics (2024)",
+      "National Merit Scholarship, awarded by Pfizer (2018)"
+    ],
+    "grants": [
+      "NSF GRFP — Total Funding: $159,000",
+      "National Merit Scholarship — Total Funding: $12,000"
+    ]
+  },
+  "teaching": {
+    "courses": [
+      "Data Science for Business (Undergraduate) — Instructor, January 2025",
+      "Microeconomics (Undergraduate) — Recitation Instructor, Fall 2024",
+      "Intro. to Analytics and AI (Graduate) — Teaching Fellow, Summer 2024; Summer 2025; Summer 2026",
+      "Data Science for Business (Graduate) — Teaching Fellow, Spring 2024",
+      "Intro. to Econometrics (Undergraduate) — Teaching Assistant, Spring 2022",
+      "Data Structures & Algorithms (Undergraduate) — Teaching Assistant, Fall 2019; Spring 2020"
+    ],
+    "materials": []
+  },
+  "service": {
+    "reviewing": [
+      "ACM EC 2026 — Reviewer",
+      "International Conference on Information Systems 2025 — Reviewer"
+    ],
+    "mentoring": [
+      "Info. Sys. Presentations Over the Cloud (ISPOC) 2024–2025 — Organizer",
+      "Tau Beta Pi (WUSTL Chapter) 2021–2022 — President",
+      "Engineers Without Borders (WUSTL Chapter) 2019–2021 — Treasurer"
+    ]
+  },
+  "cv": {
+    "intro": "Download my CV or visit my website and LinkedIn for additional information.",
+    "links": [
+      { "label": "Download CV (PDF)", "href": "Files/CV.pdf", "variant": "primary" },
+      { "label": "Website", "href": "https://connordouglas10.github.io", "variant": "secondary" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/in/cpdouglas/", "variant": "secondary" }
+    ]
+  },
+  "contact": {
+    "email": "cpd8405@stern.nyu.edu",
+    "office": "KMC 8-180",
+    "location": "44 W 4th St., New York, NY 10012"
+  },
+  "footer": {
+    "name": "Connor Douglas"
+  }
+}
