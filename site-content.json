@@ -24,7 +24,7 @@
       { "label": "Email", "value": "cpd8405@stern.nyu.edu" },
       { "label": "Office", "value": "KMC 8-180 • New York, NY" },
       { "label": "Research", "value": "Data-driven Decision Making • Causal inference • Personalization • Markets" },
-      { "label": "Bio", "value": "I'm a PhD candidate in Information System at NYU Stern, in the Technology, Operations, and Statistics department. I love all things at the intersection of computer science, economics, and math. " }
+      { "label": "Bio", "value": "I'm a PhD candidate in Information Systems at NYU Stern, in the Technology, Operations, and Statistics department. I love all things at the intersection of computer science, economics, and math. " }
     ],
     "links": [
       { "label": "CV", "href": "Files/CV.pdf", "variant": "secondary" },
