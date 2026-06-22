@@ -34,7 +34,7 @@
     ]
   },
   "research": {
-    "intro": "My research lies at the intersection of machine learning and economics, where I am especially interested in <strong>algorithmic decision making</strong>. I study the design and evaluation of these systems, with methodological interests largely in <strong>adaptive experimentation</strong> and <strong>causal inference</strong>. More substantively, I am especially interested in settings applied to <strong>personalization</strong>, <strong>markets</strong>, and <strong>language models</strong>.<br><br>I'm passionate about advancing a notion of <strong>algorithmic economics</strong> which treats algorithms as imperfect decision makers and studies the quality of these decisions and their downstream effects on interactive or social systems (much like the behavioral economics movement). I believe this is vital not only for improving the performance of algorithmic decision makers in context but also for studying the safety implications of algorithmic proliferation."
+    "intro": "My research lies at the intersection of machine learning and economics, where I am especially interested in <strong>algorithmic decision making</strong>. I study the design and evaluation of algorithmic decision making systems, with methodological interests largely in <strong>adaptive experimentation</strong>, including bandit learning, and <strong>causal inference</strong>. More substantively, I am especially interested in settings applied to <strong>personalization</strong>, <strong>markets</strong>, and <strong>language models</strong>.<br><br>I'm passionate about advancing a notion of <strong>algorithmic economics</strong> which treats algorithms as imperfect decision makers and studies the quality of these decisions and their downstream effects on interactive or social systems (much like the behavioral economics movement). I believe this is vital not only for improving the performance of algorithmic decision makers in context but also for studying the safety implications of algorithmic proliferation."
   },
   "industry": {
     "roles": [
@@ -153,7 +153,7 @@
     ]
   },
   "hobbies": {
-    "text": "In free time, some of my biggest hobbies are snowboarding, hiking, drawing, and exploring the NYC food scene. Last year I ran the Boston Marathon (on team BMC) and loaded up on caffeine to do the Badwater Basin to Mt. Whitney duathlon (bike + hike). I've been fortunate to spend a lot of time hiking in the White Mountains (I'm currently at 44/48 4000 footers) and Sierra Nevada, having done both the John Muir Trail and High Sierra Trail. This year, I'm focusing on getting back into drawing, watercoloring, and photography."
+    "text": "In free time, some of my biggest hobbies are snowboarding, hiking, drawing, and exploring the NYC food scene. Last year, I ran the Boston Marathon (on team BMC) and loaded up on caffeine to do the Badwater Basin to Mt. Whitney duathlon (bike + hike). I've been fortunate to spend a lot of time hiking in the White Mountains (I'm currently at 44/48 4000 footers) and Sierra Nevada, having done both the John Muir Trail and High Sierra Trail. This year, I'm focusing on getting back into drawing, watercoloring, and photography."
   },
   "contact": {
     "email": "cpd8405@stern.nyu.edu",
