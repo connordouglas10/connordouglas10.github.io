@@ -77,18 +77,22 @@
       "links": []
     },
     {
-      "year": 2025,
+      "year": 2026,
       "title": "The Illusion of Collusion: How Experimentation Algorithm Choice Affects Naive Algorithmic Collusion",
       "authors": "Connor Douglas, Foster Provost, Arun Sundararajan",
       "venue": "Working Paper",
-      "links": []
+      "links": [
+        { "label": "arXiv", "url": "https://arxiv.org/abs/2411.16574" }
+      ]
     },
     {
-      "year": 2025,
-      "title": "Logging Policy Design for Efficient Off-policy Evaluation",
+      "year": 2026,
+      "title": "Logging Policy Design for Off-Policy Evaluation",
       "authors": "Connor Douglas, Joel Persson, Foster Provost",
       "venue": "In preparation, Management Science",
-      "links": []
+      "links": [
+        { "label": "arXiv", "url": "https://arxiv.org/abs/2605.15108" }
+      ]
     },
     {
       "year": 2024,

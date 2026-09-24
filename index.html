@@ -662,7 +662,7 @@
                 ? pub.links.map(function (link) {
                     var label = link.label || 'Link';
                     var url = link.url || '#';
-                    return '<a href="' + url + '">' + label + '</a>';
+                    return '<a class="btn secondary" href="' + url + '" target="_blank" rel="noopener noreferrer">' + label + '</a>';
                   }).join('')
                 : '';
 
