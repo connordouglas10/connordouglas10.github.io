@@ -73,8 +73,10 @@
       "year": 2026,
       "title": "PRISM: LLM-Guided Semantic Clustering for High-Precision Topics",
       "authors": "Connor Douglas, Utkucan Balci, Joseph Ayelett-Bullock",
-      "venue": "Forthcoming, Proceedings of the ACM Web Conference (WWW 2026)",
-      "links": []
+      "venue": "Proceedings of the ACM Web Conference (WWW 2026)",
+      "links": [
+        { "label": "WWW", "url": "https://doi.org/10.1145/3774904.3792944" }
+      ]
     },
     {
       "year": 2026,
@@ -99,7 +101,9 @@
       "title": "Naive Algorithmic Collusion: When Do Bandit Learners Cooperate and When Do They Compete?",
       "authors": "Connor Douglas, Foster Provost, Arun Sundararajan",
       "venue": "Proceedings of the International Conference on Information Systems (ICIS 2024)",
-      "links": []
+      "links": [
+        { "label": "ICIS", "url": "https://aisel.aisnet.org/icis2024/aiinbus/aiinbus/15/" }
+      ]
     },
     {
       "year": 2024,
@@ -113,7 +117,9 @@
       "title": "Computing an Optimal Strategy in a Baseball At-bat",
       "authors": "Connor Douglas, Everett Witt, Mia Bendy, Yevgeniy Vorobeychik",
       "venue": "Proceedings of FLAIRS-36 Conference",
-      "links": []
+      "links": [
+        { "label": "FLAIRS", "url": "https://doi.org/10.32473/flairs.36.133346" }
+      ]
     }
   ],
   "awards": {

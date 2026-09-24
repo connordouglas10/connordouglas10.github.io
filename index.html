@@ -269,14 +269,18 @@
       font-size: 14.5px;
       line-height: 1.45;
     }
-    .pub .links{
-      margin-top: 8px;
-      display:flex;
-      gap: 10px;
-      flex-wrap:wrap;
-      font-size: 14.5px;
+    .pub .paper-link{
+      display:inline-flex;
+      width:13px;
+      height:13px;
+      margin-left:5px;
+      color:var(--accent);
+      vertical-align:-1px;
+      opacity:0.82;
+      text-decoration:none;
     }
-    .pub .links a{ color: var(--accent); font-weight: 650; }
+    .pub .paper-link:hover{ color:var(--accent-2); opacity:1; text-decoration:none; }
+    .pub .paper-link svg{ width:100%; height:100%; }
 
     /* Industry */
     .industry-list{
@@ -662,19 +666,24 @@
                 ? pub.links.map(function (link) {
                     var label = link.label || 'Link';
                     var url = link.url || '#';
-                    return '<a class="btn secondary" href="' + url + '" target="_blank" rel="noopener noreferrer">' + label + '</a>';
+                    return '<a class="paper-link" href="' + url + '" target="_blank" rel="noopener noreferrer" aria-label="Open ' + label + ' publication" title="' + label + '">' +
+                      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+                        '<path d="M14 3h7v7"></path>' +
+                        '<path d="M10 14 21 3"></path>' +
+                        '<path d="M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"></path>' +
+                      '</svg>' +
+                    '</a>';
                   }).join('')
                 : '';
 
               pubEl.innerHTML =
                 '<div class="year">' + (pub.year != null ? pub.year : '') + '</div>' +
                 '<div>' +
-                  '<p class="title">' + (pub.title || '') + '</p>' +
+                  '<p class="title">' + (pub.title || '') + linksHtml + '</p>' +
                   '<div class="meta">' +
                     (pub.authors || '') +
                     (pub.venue ? ' • <em>' + pub.venue + '</em>' : '') +
                   '</div>' +
-                  '<div class="links">' + linksHtml + '</div>' +
                 '</div>';
 
               pubsContainer.appendChild(pubEl);
